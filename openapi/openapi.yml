@@ -1,0 +1,12 @@
+openapi: '3.0.2'
+info:
+  title: API Title
+  version: '1.0'
+servers:
+  - url: https://raw.githubusercontent.com/greyhypotheses/greyhypotheses.github.io/25ec98fbb2a702f6293b2c093cbe0092b411c1a3/_data/hub/life.json
+paths:
+  /test:
+    get:
+      responses:
+        '200':
+          description: OK
